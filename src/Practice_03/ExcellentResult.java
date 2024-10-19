@@ -9,10 +9,11 @@ public class ExcellentResult {
         System.out.println("Please, enter your result");
         int result = Integer.parseInt(scanner.nextLine());
 
-        if (result >= 5){
+        if (result >= 5) {
             System.out.println("Excellent!");
-        }else
+        } else {
             System.out.println("Practice more and try again");
+        }
         scanner.close();
     }
 }

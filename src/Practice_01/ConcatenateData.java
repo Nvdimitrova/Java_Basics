@@ -19,5 +19,6 @@ public class ConcatenateData {
                 + lastName + "," + " " + "a " + ages
                 + "-years old person from" + " "
                 + town + ".");
+        scanner.close();
     }
 }

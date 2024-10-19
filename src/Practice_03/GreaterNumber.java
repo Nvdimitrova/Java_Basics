@@ -13,8 +13,9 @@ public class GreaterNumber {
 
         if (firstNumber > secondNumber){
             System.out.println(firstNumber);
-        }else
+        }else {
             System.out.println("Greater number is: " + secondNumber);
+        }
         scanner.close();
     }
 }
