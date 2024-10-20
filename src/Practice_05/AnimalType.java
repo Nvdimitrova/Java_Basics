@@ -26,6 +26,7 @@ public class AnimalType {
                 break;
             default:
                 type = "unknown";
+                break;
         }
         System.out.println(type);
         scanner.close();
